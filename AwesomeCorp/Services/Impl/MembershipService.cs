@@ -1,14 +1,14 @@
 ﻿using System;
 using Authentication.Models;
 using Authentication.Services;
-using BigMess.Constants;
+using AwesomeCorp.Constants;
 using Commerce;
 using Commerce.Models;
 using Commerce.Services;
 using Commerce.Utils;
 using FakeIoc;
 
-namespace BigMess.Services.Impl
+namespace AwesomeCorp.Services.Impl
 {
     public class MembershipService : IMembershipService
     {

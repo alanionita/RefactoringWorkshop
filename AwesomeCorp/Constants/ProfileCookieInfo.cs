@@ -1,4 +1,4 @@
-﻿namespace BigMess.Constants
+﻿namespace AwesomeCorp.Constants
 {
     public static class ProfileCookieInfo
     {

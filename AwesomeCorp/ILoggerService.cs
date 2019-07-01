@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BigMess
+namespace AwesomeCorp
 {
     public interface ILoggerService
     {

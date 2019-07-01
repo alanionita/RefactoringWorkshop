@@ -1,4 +1,4 @@
-﻿namespace BigMess.Services
+﻿namespace AwesomeCorp.Services
 {
     public interface IMembershipService
     {
