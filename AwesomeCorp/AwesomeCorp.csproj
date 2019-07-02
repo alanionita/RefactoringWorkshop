@@ -7,7 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Authentication\Authentication.csproj" />
     <ProjectReference Include="..\Commerce\Commerce.csproj" />
-    <ProjectReference Include="..\FakeIoc\FakeIoc.csproj" />
+    <ProjectReference Include="..\FakeStuff\FakeStuff.csproj" />
   </ItemGroup>
 
 </Project>

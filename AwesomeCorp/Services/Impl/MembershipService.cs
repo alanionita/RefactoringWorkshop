@@ -6,7 +6,7 @@ using Commerce;
 using Commerce.Models;
 using Commerce.Services;
 using Commerce.Utils;
-using FakeIoc;
+using FakeStuff;
 
 namespace AwesomeCorp.Services.Impl
 {
@@ -113,15 +113,15 @@ namespace AwesomeCorp.Services.Impl
                 return null;
 
             return new UserProfile
-            {
-                Title = GetActiveTitle(profile),
-                FirstName = GetActiveFirstName(profile),
-                Surname = GetActiveLastName(profile),
-                EmailAddress = profile.Email,
-                NonRegisteredEmailAddress = profile.NonRegisteredEmail,
-                UserType = ConvertProfileToUserType(profile),
-                MatchStatus = ConvertAccountStatusToRegistrationStatus(profile)
-            };
+                   {
+                       Title = GetActiveTitle(profile),
+                       FirstName = GetActiveFirstName(profile),
+                       Surname = GetActiveLastName(profile),
+                       EmailAddress = profile.Email,
+                       NonRegisteredEmailAddress = profile.NonRegisteredEmail,
+                       UserType = ConvertProfileToUserType(profile),
+                       MatchStatus = ConvertAccountStatusToRegistrationStatus(profile)
+                   };
         }
 
         private static string GetActiveTitle(Profile profile)

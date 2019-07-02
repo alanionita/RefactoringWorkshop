@@ -11,6 +11,5 @@
         public string Email { get; set; }
         public string NonRegisteredEmail { get; set; }
         public bool IsRegistered { get; set; }
-        public AccountStatus Status { get; set; }
     }
 }
