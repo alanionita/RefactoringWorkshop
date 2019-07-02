@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication", "Authentic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FakeStuff", "FakeStuff\FakeStuff.csproj", "{62150AAB-0915-4F9C-A4C1-2C9FD97B7E6B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{98EAB09F-E857-422A-AD8D-34424D4109ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,18 @@ Global
 		{62150AAB-0915-4F9C-A4C1-2C9FD97B7E6B}.Release|x64.Build.0 = Release|Any CPU
 		{62150AAB-0915-4F9C-A4C1-2C9FD97B7E6B}.Release|x86.ActiveCfg = Release|Any CPU
 		{62150AAB-0915-4F9C-A4C1-2C9FD97B7E6B}.Release|x86.Build.0 = Release|Any CPU
+		{98EAB09F-E857-422A-AD8D-34424D4109ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98EAB09F-E857-422A-AD8D-34424D4109ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98EAB09F-E857-422A-AD8D-34424D4109ED}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{98EAB09F-E857-422A-AD8D-34424D4109ED}.Debug|x64.Build.0 = Debug|Any CPU
+		{98EAB09F-E857-422A-AD8D-34424D4109ED}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{98EAB09F-E857-422A-AD8D-34424D4109ED}.Debug|x86.Build.0 = Debug|Any CPU
+		{98EAB09F-E857-422A-AD8D-34424D4109ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98EAB09F-E857-422A-AD8D-34424D4109ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98EAB09F-E857-422A-AD8D-34424D4109ED}.Release|x64.ActiveCfg = Release|Any CPU
+		{98EAB09F-E857-422A-AD8D-34424D4109ED}.Release|x64.Build.0 = Release|Any CPU
+		{98EAB09F-E857-422A-AD8D-34424D4109ED}.Release|x86.ActiveCfg = Release|Any CPU
+		{98EAB09F-E857-422A-AD8D-34424D4109ED}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
