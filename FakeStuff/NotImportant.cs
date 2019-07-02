@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace FakeStuff
 {
@@ -24,5 +25,32 @@ namespace FakeStuff
     public static class ServiceLocator
     {
         public static IServiceLocator Current { get; set; }
+    }
+
+    public abstract class NinjectModule
+    {
+        public abstract void Load();
+
+        protected BindingBuilder<T> Bind<T>()
+        {
+            return new BindingBuilder<T>();
+        }
+    }
+
+    public class BindingBuilder<T> {
+        public BindingBuilder<T> To<T>()
+        {
+            return new BindingBuilder<T>();
+        }
+
+        public BindingBuilder<T> Named(string name)
+        {
+            return new BindingBuilder<T>();
+        }
+
+        public void InRequestScope()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
